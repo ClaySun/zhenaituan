@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*cssreset*/
+* { font-family: "微软雅黑",arial;}
+html,
+body,
+dl,
+dt,
+dd,
+table,
+ul,
+ol,
+li,
+select,
+option,
+button,
+input[text],
+textarea { 
+	margin: 0; 
+	padding: 0;
+}
+ol,
+li { list-style: none;}
+img { 
+	display: block;
+	border: none;
+}
+button,
+input[text],
+select,
+textarea {
+	outline: 0 none; 
+	
+}
+table { 
+	border: none;
+}
+button { 
+	cursor: pointer;
+	border: none;
+}
+
+/*归类*/
+.clearfix { clear:both;}
+.floatL { float: left;}
+.floatR { float: right;}
+.font12 { font-size: 12px;}
+.font14 { font-size: 14px;}
+.font16 { font-size: 16px;}
+.font18 { font-size: 18px;}
+.r-align { text-align: right;}
+.fontW { font-weight: bold;}
+.color333 { color: #333;}
+.color666 { color: #666;}
+.color999 { color: #999;}
+.color-fff { color: #fff;}
+.color-f00 { color: #f00;}
+.bgcolor-f00 { background-color: #f00;}
+.bgcolor666 { background-color: #666;}
+
+.ver-aling-mid { vertical-align: middle;}
+.display-none { display: none;}
+.display-block { display: block;}
+
+.posi-re { position: relative;}
+
+.mar-top20 { margin-top: 20px;}
+.mar-top40 { margin-top: 40px;}
+
+
+/*自定义属性*/
+.navbar-brand>img {
+	position: absolute;
+	left: 0;
+	top: 5px;
+	width: 140px;
+	height: 40px;
+}
+
+.navbar { margin-bottom: 0;}
+
+
+.moveup {
+    /*border: 1px solid rgba(0, 0, 0, 0.12);*/
+    -webkit-transition: 0.2s all ease-in-out;
+    -moz-transition: 0.2s all ease-in-out;
+    transition: 0.2s all ease-in-out;
+}
+.moveup:hover{
+	-webkit-transform: translateY(-4px);
+	-moz-transform: translateY(-4px);
+	transform: translateY(-4px);
+}
+
+.products-title {
+	position: relative;
+	margin-left: 20px;
+	padding: 4px 0;
+	text-align: left;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 28px;
+}
+
+.products-title:before {
+	content: '';
+	position: absolute;
+	left: -20px;
+	top: 4px;
+	width: 4px;
+	height: 28px;
+	background-color: #f00;
+}
+
+.container { text-align: center;}
+
+.title {
+	margin-top: 55px;
+}
+
+.title>img {
+	width: 100%;
+	height: auto;
+}
